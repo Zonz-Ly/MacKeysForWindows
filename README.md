@@ -19,7 +19,7 @@
 
 - 方法一：安裝 AutoHotkey v1.1，下載源碼中的 [MacKeysForWindows.ahk](https://github.com/Zonz-Ly/MacKeysForWindows/blob/main/MacKeysForWindows.ahk)，雙擊腳本即可運行。此法亦可對腳本自定義編輯，或向你最親愛的 AI 許願。
 - 方法二：下載 Release 中的 [MacKeysForWindows.zip](https://github.com/Zonz-Ly/MacKeysForWindows/releases/download/v1.0/MacKeysForWindows.zip)，解壓後雙擊 .exe 即可運行。
-- 自行使用鍵盤映射工具對調 control 鍵和 command（Win） 鍵映射。
+- 使用 [SwapCtrlAndWin.reg](https://github.com/Zonz-Ly/MacKeysForWindows/blob/main/SwapCtrlAndWin.reg) 來對調 Ctrl 和 Win 鍵。本腳本使用 Ctrl 鍵作為 macOS 的 command 鍵、Win 鍵作為 macOS 的 control 鍵。
 - 在任務欄托盤管理或退出腳本。
 - 如需開機自動運行，可在 Windows「啟動」文件夾中建立指向該腳本的快捷方式。
 - **Fn 鍵、電源鍵支持取決於鍵盤及其 HID 報告方式。** 腳本會為 Apple 廠商 ID `1452` 註冊原始 HID 輸入，但無法保證所有 Apple 鍵盤或連接方式都會提供預期的數據。如有需要可讓 AI 根據你的鍵盤進行適配。
