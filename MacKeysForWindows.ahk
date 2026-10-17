@@ -486,7 +486,7 @@ Else
 Return
 
 #Space::
-    Send, +^{f}
+    Send, {Shift}
     SetTimer, OutputCharSetToolTip, -100
 Return
 
@@ -1085,7 +1085,7 @@ Return
 Return
 
 #Space::
-    Send, +^{u}
+    Send, +^{f}
     SetTimer, OutputCharSetToolTip, -100
 Return
 
@@ -1189,27 +1189,6 @@ Return
     CenterY := (A_ScreenHeight - CenterWinHeight) // 2
     WinMove, A, , CenterX, CenterY
 return
-
-#rShift::
-    WinSet, AlwaysOnTop, Toggle, A
-Return
-
-#f3::
-    SysGet, MonitorCount, MonitorCount
-    If (MonitorCount = 2)
-    {
-        If (DPIofMonitor2 != 1)
-        {
-            Run, SetDpi.exe 100 2, , hide
-            DPIofMonitor2 = 1
-        }
-        Else
-        {
-            Run, SetDpi.exe 200 2, , hide
-            DPIofMonitor2 = 0
-        }
-    }
-Return
 
 #If fnPressed != 1
 
@@ -1416,16 +1395,6 @@ Return
 Return
 
 ^,::
-    If WinActive("ahk_class CabinetWClass")
-{
-        Send, !{t}
-        Send, {o}
-}
-    Else
-        Send, ^{,}
-Return
-
-^Pause::
     If WinActive("ahk_class CabinetWClass")
 {
         Send, !{t}
