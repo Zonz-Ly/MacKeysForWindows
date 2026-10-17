@@ -1261,7 +1261,7 @@ Return
 
 $Enter::
 $NumpadEnter::
-    If (InStr(FocusedControl_GET("ClassNN"), "DirectUIHWND2") = 1) or ((InStr(FocusedControl_GET("ClassNN"), "SysTreeView321") = 1) & (InStr(FocusedControl_GET("Text"), "导航窗格") = 1)) or ((InStr(FocusedControl_GET("ClassNN"), "SysListView321") = 1) & (InStr(FocusedControl_GET("Text"), "FolderView") = 1))
+    If (InStr(FocusedControl_GET("ClassNN"), "DirectUIHWND2") = 1) or (InStr(FocusedControl_GET("ClassNN"), "DirectUIHWND3") = 1) or ((InStr(FocusedControl_GET("ClassNN"), "SysTreeView321") = 1) & (InStr(FocusedControl_GET("Text"), "导航窗格") = 1)) or ((InStr(FocusedControl_GET("ClassNN"), "SysListView321") = 1) & (InStr(FocusedControl_GET("Text"), "FolderView") = 1))
         Send, {f2}
     Else
         Send, {Enter}
