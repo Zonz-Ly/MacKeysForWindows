@@ -17,8 +17,8 @@
 
 ## 使用方法
 
-- 方法一：安裝 AutoHotkey v1.1，下載源碼中的 `MacKeysForWindows.ahk`，雙擊腳本即可運行。此法亦可對腳本自定義編輯，或向你最親愛的 AI 許願。
-- 方法二：下載 Release 中的 `MacKeysForWindows.zip`，解壓後雙擊 .exe 即可運行。
+- 方法一：安裝 AutoHotkey v1.1，下載源碼中的 [MacKeysForWindows.ahk](https://github.com/Zonz-Ly/MacKeysForWindows/blob/main/MacKeysForWindows.ahk)，雙擊腳本即可運行。此法亦可對腳本自定義編輯，或向你最親愛的 AI 許願。
+- 方法二：下載 Release 中的 [MacKeysForWindows.zip](https://github.com/Zonz-Ly/MacKeysForWindows/releases/download/v1.0/MacKeysForWindows.zip)，解壓後雙擊 .exe 即可運行。
 - 自行使用鍵盤映射工具對調 control 鍵和 command（Win） 鍵映射。
 - 在任務欄托盤管理或退出腳本。
 - 如需開機自動運行，可在 Windows「啟動」文件夾中建立指向該腳本的快捷方式。
